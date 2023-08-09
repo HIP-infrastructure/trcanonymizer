@@ -3,7 +3,7 @@ ARG TAG
 ARG DOCKERFS_TYPE
 ARG DOCKERFS_VERSION
 FROM ${CI_REGISTRY_IMAGE}/${DOCKERFS_TYPE}:${DOCKERFS_VERSION}${TAG}
-LABEL maintainer="florian.sipp@inserm.fr"
+LABEL maintainer="florian.sipp@chuv.ch"
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG CARD
