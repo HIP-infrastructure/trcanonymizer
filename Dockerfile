@@ -21,7 +21,7 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y \
     curl unzip libxkbcommon-x11-0 libxcb-keysyms1 \
     libglib2.0-0 libdbus-1-3 libxcb-icccm4 \
-    libxcb-randr0 libxcb-render-util0 libxcb-shape0 && \
+    libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-cursor0 && \
     curl -sSOL https://github.com/floriansipp/TRCAnonymizer/releases/download/V${APP_VERSION}/TRCAnonymizer.${APP_VERSION}.linux64.zip && \
     mkdir ./install && \
     unzip -q -d ./install TRCAnonymizer.${APP_VERSION}.linux64.zip && \
